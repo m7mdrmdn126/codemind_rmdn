@@ -1,0 +1,31 @@
+*{
+  padding:1px;
+  margin:1px;
+}
+
+.App{
+  display: grid;
+}
+
+.App a{
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 25px;
+  margin: 10px;
+  margin-left: 20px;
+  width: 175px;
+  background-color: rgb(50, 146, 224);
+  height: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.App a:hover{
+  background-color: cyan;
+  color: rgb(50, 146, 224);
+}
+
+.App a:active{
+  background-color: cyan;
+  color: rgb(50, 146, 224);
+}
